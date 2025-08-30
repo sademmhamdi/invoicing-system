@@ -6199,3 +6199,186 @@ footer.color-yellow .footer-bottom p a {
     font-weight: 600;
     font-size: 14px;
 }
+
+/* Banner Area Styles */
+.banner-area {
+    min-height: 340px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 1.12;
+    margin-bottom: 14px;
+}
+
+.banner-title-line {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 2px 0;
+    letter-spacing: 0.5px;
+}
+
+.banner-title-single {
+    white-space: nowrap;
+    color: #1a1a1a;
+    margin-bottom: 2px;
+}
+
+.banner-title-line:last-child {
+    color: #007bff;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+/* Features and Services Styles */
+.feature-icon {
+    width: 48px;
+    height: 48px;
+    max-width: 48px;
+    max-height: 48px;
+    margin-bottom: 12px;
+}
+
+.services-info .item {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 18px 12px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    margin-bottom: 24px;
+}
+
+.services-info .item h4 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.services-info .item p {
+    font-size: 0.98rem;
+    text-align: center;
+    flex: 1;
+}
+
+/* Pricing Equal Height Styles */
+.pricing-simple .row {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.pricing-item ul li:not(.pricing-header):not(.footer) {
+    flex: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.pricing-item ul li.footer {
+    margin-top: auto !important;
+}
+
+/* FAQ Accordion Orange Styling */
+.faq-area .accordion-button {
+    color: #333 !important;
+    background-color: #fff !important;
+    border: 1px solid #e9ecef !important;
+}
+
+.faq-area .accordion-button:hover {
+    background-color: #ffa72a !important;
+    color: #fff !important;
+    border-color: #ffa72a !important;
+}
+
+.faq-area .accordion-button:focus {
+    border-color: #ffa72a !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 167, 42, 0.25) !important;
+}
+
+.faq-area .accordion-button:not(.collapsed) {
+    background-color: #ffa72a !important;
+    color: #fff !important;
+    border-color: #ffa72a !important;
+}
+
+.faq-area .accordion-button::after {
+    filter: brightness(0) invert(1) !important;
+}
+
+.faq-area .accordion-button.collapsed::after {
+    filter: brightness(0) !important;
+}
+
+.faq-area .accordion-item {
+    border: 1px solid #e9ecef !important;
+    margin-bottom: 10px !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+.faq-area .accordion-header {
+    border: none !important;
+}
+
+.faq-area .card-body {
+    background-color: #f8f9fa !important;
+    border-top: 1px solid #ffa72a !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .banner-title {
+        font-size: 1.6rem;
+    }
+    
+    .banner-title-line:last-child {
+        font-size: 1.3rem;
+    }
+}
+
+/* Features Dashboard Image */
+.features-dashboard-img {
+    width: 100%;
+    max-width: 700px;
+    min-width: 480px;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px auto;
+    transform: scale(1.4);
+}
+
+/* Features Items */
+.features-items {
+    margin-top: 30px;
+}
+
+/* Features Icons Color */
+.features-items .icon i {
+    color: #ffa72a;
+}
+
+/* Social Media Icons - Orange Theme */
+.social-address .social li a {
+    background-color: #ffa72a !important;
+    border-color: #ffa72a !important;
+}
+
+.social-address .social li a:hover {
+    background-color: #ffa72a !important;
+    border-color: #ffa72a !important;
+}

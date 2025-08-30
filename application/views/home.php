@@ -37,49 +37,6 @@
             </div>
             <div class="wavesshape">
                 <img src="assets/img/waves-shape.svg" alt="Decorative wave shape">
-<style>
-    .banner-area {
-        min-height: 340px;
-        padding-top: 38px;
-        padding-bottom: 38px;
-        display: flex;
-        align-items: center;
-    }
-    .banner-title {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        font-size: 2.3rem;
-        font-weight: 700;
-        line-height: 1.12;
-        margin-bottom: 14px;
-    }
-    .banner-title-line {
-        display: block;
-        width: 100%;
-        padding: 0;
-        margin: 0 0 2px 0;
-        letter-spacing: 0.5px;
-    }
-    .banner-title-single {
-        white-space: nowrap;
-        color: #1a1a1a;
-        margin-bottom: 2px;
-    }
-    .banner-title-line:last-child {
-        color: #007bff;
-        font-size: 2.3rem;
-        font-weight: 600;
-    }
-    @media (max-width: 768px) {
-        .banner-title {
-            font-size: 1.6rem;
-        }
-        .banner-title-line:last-child {
-            font-size: 1.3rem;
-        }
-    }
-</style>
             </div>
         </div>
     </div>
@@ -98,7 +55,7 @@
                 <h2 class="smart-invoice-title" style="margin-top:80px;">Smart Invoicing & Client Management </h2>
    
                 <p style="text-align:justify; margin-top:60px;">
-                    More than just invoicing — our platform is your all-in-one billing, payment, and client management hub. 
+                    More than just invoicing, our platform is your all-in-one billing, payment, and client management hub. 
                     Fully <strong>FTA/EmaraTax compliant</strong>, with <strong>5% VAT automation</strong> and <strong>Arabic/English support</strong>, 
                     it helps UAE SMBs and enterprises get paid faster, stay compliant, and focus on growth.
                 </p>
@@ -164,43 +121,7 @@
                             <p>Download all invoices, estimates & payments in one ZIP file.</p>
                         </div>
                     </div>
-                    </div>
                 </div>
-                <style>
-                /* Smaller icons and equal box heights for features */
-                .feature-icon {
-                    width: 48px;
-                    height: 48px;
-                    max-width: 48px;
-                    max-height: 48px;
-                    margin-bottom: 12px;
-                }
-                .services-info .item {
-                    min-height: 220px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: flex-start;
-                    box-sizing: border-box;
-                    padding: 18px 12px;
-                    background: #fff;
-                    border-radius: 12px;
-                    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
-                    margin-bottom: 24px;
-                }
-                .services-info .item h4 {
-                    margin-top: 8px;
-                    margin-bottom: 8px;
-                    font-size: 1.1rem;
-                    font-weight: 600;
-                    text-align: center;
-                }
-                .services-info .item p {
-                    font-size: 0.98rem;
-                    text-align: center;
-                    flex: 1;
-                }
-                </style>
                 </div>
             </div>
         </div>
@@ -264,85 +185,58 @@
 
 <!-- Start Features 
 ============================================= -->
-<div id="features" class="features-area cell-items default-padding">
+<div id="features" class="services-area bg-gray default-padding">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="site-heading text-center">
-                    <h2>Powerful Invoicing & Business Tools</h2>
+                    <h4 class="sub-title">Our Services</h4>
+                    <h2 class="title">Powerful Invoicing & Business Tools</h2>
+                    <div class="devider"></div>
                     <p>
                         Stay on top of your invoicing, payments, and operations with a full suite of tools — from multi-currency billing to detailed reports — all designed for UAE businesses to work smarter, not harder.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="row align-center">
-            <div class="col-xl-5 features-thumb">
-                <img src="assets/img/app/appa1.png" alt="UAE Invoicing Dashboard" class="features-dashboard-img" style="width: 100%; max-width: 700px; min-width: 480px; height: auto; display: block; margin: 0 auto 30px auto; transform: scale(1.4);">
-            </div>
-            <div class="col-xl-7 features-items pl-60 pl-md-15 pl-xs-15" style="margin-top: 30px;">
-                <div class="row">
-
-                    <div class="col-lg-6 col-md-6 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="fas fa-file-invoice" style="color: #ffa72a;"></i>
-                            </div>
-                            <div class="info">
-                                <h4>Advanced Invoicing</h4>
-                                <p style="text-align: justify;">
-                                    Track invoices, items, and taxes with multi-currency support. Generate and export detailed billing reports anytime.
-                                </p>
-                            </div>
-                        </div>
+        <div class="services-box">
+            <div class="row">
+                <div class="col-xl-4 col-md-6 single-item">
+                    <div class="item">
+                        <i class="fas fa-file-invoice"></i>
+                        <h5>Advanced Invoicing</h5>
+                        <p>Track invoices, items, and taxes with multi-currency support. Generate and export detailed billing reports anytime with professional templates.</p>
                     </div>
+                </div>
 
-                    <div class="col-lg-6 col-md-6 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="fas fa-redo" style="color: #ffa72a;"></i>
-                            </div>
-                            <div class="info">
-                                <h4>Recurring Invoices</h4>
-                                <p style="text-align: justify;">
-                                    Automate invoice creation for days, weeks, months, or years — no manual work required.
-                                </p>
-                            </div>
-                        </div>
+                <div class="col-xl-4 col-md-6 single-item">
+                    <div class="item">
+                        <i class="fas fa-redo"></i>
+                        <h5>Recurring Invoices</h5>
+                        <p>Automate invoice creation for days, weeks, months, or years — no manual work required. Perfect for subscription-based businesses.</p>
                     </div>
+                </div>
 
-                    <div class="col-lg-6 col-md-6 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="fas fa-credit-card" style="color: #ffa72a;"></i>
-                            </div>
-                            <div class="info">
-                                <h4>Online Payments</h4>
-                                <p style="text-align: justify;">
-                                    Accept payments via PayPal, Stripe, Mollie, Authorize.net, 2Checkout, PayU Money, and Braintree.
-                                </p>
-                            </div>
-                        </div>
+                <div class="col-xl-4 col-md-6 single-item">
+                    <div class="item">
+                        <i class="fas fa-credit-card"></i>
+                        <h5>Online Payments</h5>
+                        <p>Accept payments via PayPal, Stripe, Mollie, Authorize.net, 2Checkout, PayU Money, and Braintree with secure processing.</p>
                     </div>
+                </div>
 
-                    <div class="col-lg-6 col-md-6 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="fas fa-bell" style="color: #ffa72a;"></i>
-                            </div>
-                            <div class="info">
-                                <h4>Staff Reminders</h4>
-                                <p style="text-align: justify;">
-                                    Set email and in-app reminders for key tasks, ensuring your team never misses a deadline.
-                                </p>
-                            </div>
-                        </div>
+                <div class="col-xl-4 col-md-6 single-item">
+                    <div class="item">
+                        <i class="fas fa-bell"></i>
+                        <h5>Staff Reminders</h5>
+                        <p>Set email and in-app reminders for key tasks, ensuring your team never misses a deadline or important follow-up.</p>
                     </div>
+                </div>
 
-                    <div class="col-lg-6 col-md-6 single-item">
+                    <div class="col-lg-4 col-md-6 single-item">
                         <div class="item">
                             <div class="icon">
-                                <i class="fas fa-paint-brush" style="color: #ffa72a;"></i>
+                                <i class="fas fa-paint-brush"></i>
                             </div>
                             <div class="info">
                                 <h4>Theme Styling</h4>
@@ -353,48 +247,12 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="fas fa-envelope-open-text" style="color: #ffa72a;"></i>
-                            </div>
-                            <div class="info">
-                                <h4>Email Templates</h4>
-                                <p style="text-align: justify;">
-                                    Create predefined, multi-language email templates with merge fields and rich-text formatting.
-                                </p>
-                            </div>
-                        </div>
+                <div class="col-xl-4 col-md-6 single-item">
+                    <div class="item">
+                        <i class="fas fa-users"></i>
+                        <h5>Client Management</h5>
+                        <p>Complete customer data management with payment tracking, outstanding balances, and automated late payment notifications for better relationships.</p>
                     </div>
-
-                    <div class="col-lg-6 col-md-6 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="fas fa-tasks" style="color: #ffa72a;"></i>
-                            </div>
-                            <div class="info">
-                                <h4>Staff Tasks</h4>
-                                <p style="text-align: justify;">
-                                    Assign tasks to multiple employees, add followers, comments, attachments, and link tasks to invoices.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="fas fa-chart-line" style="color: #ffa72a;"></i>
-                            </div>
-                            <div class="info">
-                                <h4>Comprehensive Reports</h4>
-                                <p style="text-align: justify;">
-                                    Get insights with sales, expenses, customer reports, lead conversions, and article performance analytics.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -422,11 +280,11 @@
             </div>
         </div>
         <div class="pricing pricing-simple text-center">
-            <div class="row" style="display: flex; align-items: stretch;">
+            <div class="row">
                 <!-- Starter Plan -->
                 <div class="col-lg-4 col-md-6">
-                    <div class="pricing-item" style="display: flex; flex-direction: column; height: 100%;">
-                        <ul style="display: flex; flex-direction: column; height: 100%; margin: 0; padding: 0;">
+                    <div class="pricing-item">
+                        <ul>
                             <li class="pricing-header">
                                 <h4>Starter</h4>
                                 <h2><sup>AED</sup>69 <sub>/ Month</sub></h2>
@@ -446,8 +304,8 @@
                 </div>
                 <!-- Business Plan -->
                 <div class="col-lg-4 col-md-6">
-                    <div class="pricing-item active" style="display: flex; flex-direction: column; height: 100%;">
-                        <ul style="display: flex; flex-direction: column; height: 100%; margin: 0; padding: 0;">
+                    <div class="pricing-item active">
+                        <ul>
                             <li class="pricing-header">
                                 <h4>Business</h4>
                                 <h2><sup>AED</sup>109 <sub>/ Month</sub></h2>
@@ -469,8 +327,8 @@
                 </div>
                 <!-- Enterprise Plan -->
                 <div class="col-lg-4 col-md-6">
-                    <div class="pricing-item" style="display: flex; flex-direction: column; height: 100%;">
-                        <ul style="display: flex; flex-direction: column; height: 100%; margin: 0; padding: 0;">
+                    <div class="pricing-item">
+                        <ul>
                             <li class="pricing-header">
                                 <h4>Enterprise</h4>
                                 <h2><sup>AED</sup>179 <sub>/ Month</sub></h2>
@@ -494,21 +352,6 @@
         </div>
     </div>
 </div>
-<style>
-/* Pricing boxes equal height - inline styles */
-.pricing-simple .row {
-    display: flex !important;
-    align-items: stretch !important;
-}
-.pricing-item ul li:not(.pricing-header):not(.footer) {
-    flex: 1 !important;
-    display: flex !important;
-    align-items: center !important;
-}
-.pricing-item ul li.footer {
-    margin-top: auto !important;
-}
-</style>
 <!-- End Pricing Area -->
 
 
@@ -620,7 +463,7 @@
 
 
    <!-- Start Testimonials 
-    ============================================= -->
+    ============================================= 
 <div class="testimonials-area default-padding">
     <div class="container">
         <div class="row">
@@ -635,7 +478,7 @@
                 <div class="testimonial-items text-center">
                     <div class="carousel slide" data-bs-ride="carousel" id="testimonial-carousel">
                         <div class="carousel-inner">
-                            <!-- Testimonial 1 -->
+                            Testimonial 1 
                             <div class="carousel-item active">
                                 <span class="quote"></span>
                                 <p>
@@ -645,7 +488,7 @@
                                 <h4>Aisha Al Mansoori</h4>
                                 <span>Finance Manager, Desert Bloom Retail (Dubai)</span>
                             </div>
-                            <!-- Testimonial 2 -->
+                            Testimonial 2 
                             <div class="carousel-item">
                                 <span class="quote"></span>
                                 <p>
@@ -655,7 +498,7 @@
                                 <h4>Dr. Omar Rahman</h4>
                                 <span>Owner, Al Noor Medical Clinic (Abu Dhabi)</span>
                             </div>
-                            <!-- Testimonial 3 -->
+                            Testimonial 3 
                             <div class="carousel-item">
                                 <span class="quote"></span>
                                 <p>
@@ -666,7 +509,7 @@
                                 <span>Operations Lead, Horizon Creative Agency (Sharjah)</span>
                             </div>
                         </div>
-                        <!-- End Carousel Content -->
+                        -->
 
                         <!-- Carousel Indicators -->
                        
@@ -693,7 +536,7 @@
                     <div class="input-group stylish-input-group">
                         <input type="email" placeholder="Enter your email" class="form-control" name="email">
                         <span class="input-group-addon">
-                            <button type="button">
+                            <button type="button" class="btn btn-theme">
                                 <i class="fa fa-paper-plane"></i>
                             </button>
                         </span>
@@ -715,7 +558,7 @@
                 <div class="site-heading text-center">
                     <h2>Contact Us</h2>
                     <p>
-                        Want to see what our UAE CRM & Billing solution can do for your business? Send us a message or schedule a live demo — we’ll take care of the rest.
+                        Want to see what our UAE CRM & Billing solution can do for your business? Send us a message or schedule a live demo, we’ll take care of the rest.
                     </p>
                 </div>
             </div>
@@ -732,7 +575,7 @@
                         </li>
                         <li>
                             <i class="fas fa-phone"></i>
-                            <span>+971 (0)50 123 4567</span>
+                            <span>+971 (0)52 556 6168</span>
                         </li>
                         <li>
                             <i class="fas fa-envelope-open"></i>
@@ -743,10 +586,10 @@
                         <h4>Follow Us</h4>
                         <ul class="social">
                             <li class="facebook">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/p/amaziverse-61554452889212/"><i class="fab fa-facebook-f"></i></a>
                             </li>
                             <li class="instagram">
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/amaziverse.ca/"><i class="fab fa-instagram"></i></a>
                             </li>
                             
                         </ul>
@@ -902,45 +745,4 @@
         </div>
     </div>
 </div>
-<style>
-/* FAQ Accordion Custom Orange Styling */
-.faq-area .accordion-button {
-    color: #333 !important;
-    background-color: #fff !important;
-    border: 1px solid #e9ecef !important;
-}
-.faq-area .accordion-button:hover {
-    background-color: #ffa72a !important;
-    color: #fff !important;
-    border-color: #ffa72a !important;
-}
-.faq-area .accordion-button:focus {
-    border-color: #ffa72a !important;
-    box-shadow: 0 0 0 0.25rem rgba(255, 167, 42, 0.25) !important;
-}
-.faq-area .accordion-button:not(.collapsed) {
-    background-color: #ffa72a !important;
-    color: #fff !important;
-    border-color: #ffa72a !important;
-}
-.faq-area .accordion-button::after {
-    filter: brightness(0) invert(1) !important;
-}
-.faq-area .accordion-button.collapsed::after {
-    filter: brightness(0) !important;
-}
-.faq-area .accordion-item {
-    border: 1px solid #e9ecef !important;
-    margin-bottom: 10px !important;
-    border-radius: 8px !important;
-    overflow: hidden !important;
-}
-.faq-area .accordion-header {
-    border: none !important;
-}
-.faq-area .card-body {
-    background-color: #f8f9fa !important;
-    border-top: 1px solid #ffa72a !important;
-}
-</style>
 <!-- End FAQ -->
