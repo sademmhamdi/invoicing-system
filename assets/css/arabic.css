@@ -1,0 +1,135 @@
+/* Arabic Page Specific Styles */
+
+/* Icon colors for Arabic page - Higher specificity */
+body[dir="rtl"] .services-area .services-box .item i {
+    color: #4a4a4a !important;
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    -webkit-text-fill-color: initial !important;
+    background-clip: initial !important;
+    transition: all 0.3s ease !important;
+}
+
+body[dir="rtl"] .services-area .services-box .item:hover i {
+    color: #333333 !important;
+}
+
+body[dir="rtl"] .services-area .services-box .item:hover h5 {
+    color: #333333 !important;
+}
+
+/* Override default white hover color for services in Arabic page */
+body[dir="rtl"] .services-area .services-box .item:hover i,
+body[dir="rtl"] .services-area .services-box .item:hover h5,
+body[dir="rtl"] .services-area .services-box .item:hover p {
+    color: #333333 !important;
+}
+
+/* Ensure services text remains readable */
+body[dir="rtl"] .services-area .services-box .item p {
+    color: #666666 !important;
+}
+
+body[dir="rtl"] .about-area .top-features .item i {
+    color: #ffa72a !important;
+    background: linear-gradient(90deg, #FFA72A, #DF8200) !important;
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+body[dir="rtl"] .work-process-area .works-process-items .item .icon i {
+    background: linear-gradient(-160deg, #FFA72A, #DF8200) !important;
+    color: #4a4a4a !important;
+    -webkit-text-fill-color: #4a4a4a !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+}
+
+body[dir="rtl"] .work-process-area .works-process-items .item .icon span {
+    background: linear-gradient(-160deg, #FFA72A, #DF8200) !important;
+    color: #4a4a4a !important;
+}
+
+/* Make step labels orange */
+body[dir="rtl"] .work-process-area .works-process-items .item .info span {
+    color: #FFA72A !important;
+}
+
+/* Adjust icon positioning to be above text */
+body[dir="rtl"] .work-process-area .works-process-items .item .icon {
+    margin-bottom: 20px !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+body[dir="rtl"] .work-process-area .works-process-items .item {
+    text-align: center !important;
+}
+
+/* Additional icon styling for Arabic page */
+body[dir="rtl"] .pricing-area .pricing-item .fa {
+    color: #ffa72a !important;
+}
+
+body[dir="rtl"] .contact-us-area .contact-info .icon i {
+    color: #ffa72a !important;
+}
+
+/* Ensure orange color for all FontAwesome icons in Arabic page */
+body[dir="rtl"] .fas, 
+body[dir="rtl"] .far, 
+body[dir="rtl"] .fab {
+    color: #ffa72a !important;
+}
+
+/* Override for services area - dark grey icons */
+body[dir="rtl"] .services-area .fas,
+body[dir="rtl"] .services-area .far,
+body[dir="rtl"] .services-area .fab,
+body[dir="rtl"] .services-area i[class*="fa-"] {
+    color: #4a4a4a !important;
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    -webkit-text-fill-color: initial !important;
+    background-clip: initial !important;
+}
+
+body[dir="rtl"] .services-area .item:hover .fas,
+body[dir="rtl"] .services-area .item:hover .far,
+body[dir="rtl"] .services-area .item:hover .fab,
+body[dir="rtl"] .services-area .item:hover i[class*="fa-"] {
+    color: #333333 !important;
+}
+
+/* Force override any blue colors in Arabic page */
+body[dir="rtl"] i[class*="fa-"]:before,
+body[dir="rtl"] .fa:before,
+body[dir="rtl"] .fas:before,
+body[dir="rtl"] .far:before,
+body[dir="rtl"] .fab:before {
+    color: #ffa72a !important;
+}
+
+/* Override for services area pseudo-elements */
+body[dir="rtl"] .services-area i[class*="fa-"]:before,
+body[dir="rtl"] .services-area .fa:before,
+body[dir="rtl"] .services-area .fas:before,
+body[dir="rtl"] .services-area .far:before,
+body[dir="rtl"] .services-area .fab:before {
+    color: #4a4a4a !important;
+}
+
+body[dir="rtl"] .services-area .item:hover i[class*="fa-"]:before,
+body[dir="rtl"] .services-area .item:hover .fa:before,
+body[dir="rtl"] .services-area .item:hover .fas:before,
+body[dir="rtl"] .services-area .item:hover .far:before,
+body[dir="rtl"] .services-area .item:hover .fab:before {
+    color: #333333 !important;
+}
+
+/* Service item hover effects with orange theme */
+.services-area .services-box .item:hover::after {
+    background: linear-gradient(-160deg, #FFA72A, #DF8200);
+}

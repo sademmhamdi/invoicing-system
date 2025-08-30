@@ -1,0 +1,156 @@
+/* Arabic RTL Specific Styles */
+body[dir="rtl"] {
+    text-align: right;
+}
+
+/* Navigation fixes */
+body[dir="rtl"] .navbar-collapse {
+    text-align: right;
+}
+
+body[dir="rtl"] .navbar-nav {
+    float: right;
+}
+
+body[dir="rtl"] .attr-nav {
+    float: left;
+}
+
+/* Banner/Hero section */
+body[dir="rtl"] .banner-area .content {
+    text-align: right;
+}
+
+body[dir="rtl"] .banner-area .simple-video .video-play-button {
+    float: right;
+    margin-right: 30px;
+    margin-left: 0;
+}
+
+/* Features section */
+body[dir="rtl"] .top-features .item {
+    text-align: right;
+}
+
+/* Work process arrows */
+body[dir="rtl"] .works-process-items .single-item::after {
+    left: auto;
+    right: 100%;
+    transform: scaleX(-1);
+    margin-right: -50px;
+    margin-left: 0;
+}
+
+/* Pricing section */
+body[dir="rtl"] .pricing-item {
+    text-align: right;
+}
+
+/* Blog section */
+body[dir="rtl"] .blog-area .info {
+    text-align: right;
+}
+
+/* Contact form */
+body[dir="rtl"] .contact-form {
+    text-align: right;
+}
+
+body[dir="rtl"] .contact-form input,
+body[dir="rtl"] .contact-form textarea {
+    text-align: right;
+}
+
+/* Footer fixes */
+body[dir="rtl"] footer .f-item {
+    text-align: right;
+}
+
+body[dir="rtl"] footer .f-item.link ul li a {
+    text-align: right;
+}
+
+body[dir="rtl"] .footer-bottom {
+    text-align: right;
+}
+
+body[dir="rtl"] .footer-bottom .link ul {
+    justify-content: flex-end;
+}
+
+body[dir="rtl"] .footer-bottom .link ul li:first-child a::before {
+    display: none;
+}
+
+body[dir="rtl"] .footer-bottom .link ul li a::before {
+    right: 0;
+    left: auto;
+}
+
+/* Icon alignment */
+body[dir="rtl"] .f-item .address .icon {
+    float: right;
+}
+
+body[dir="rtl"] .f-item .address .info {
+    padding-right: 20px;
+    padding-left: 0;
+    text-align: right;
+}
+
+/* Social icons */
+body[dir="rtl"] .social-address ul.social {
+    text-align: right;
+}
+
+body[dir="rtl"] .social-address ul.social li {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/* Language toggle positioning for RTL */
+body[dir="rtl"] .language-toggle {
+    left: 20px;
+    right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    body[dir="rtl"] .language-toggle {
+        left: 10px;
+        right: auto;
+    }
+}
+
+/* Additional footer fixes for proper Arabic layout */
+body[dir="rtl"] .footer-bottom .col-lg-6:first-child p {
+    text-align: right;
+}
+
+body[dir="rtl"] .footer-bottom .col-lg-6:last-child ul {
+    justify-content: flex-start;
+    text-align: left;
+}
+
+body[dir="rtl"] .footer-bottom .link ul li:last-child {
+    margin-right: 0;
+}
+
+/* Ensure contact widget icons align properly */
+body[dir="rtl"] .contact-widget .address .icon {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+body[dir="rtl"] .contact-widget .address .info {
+    text-align: right;
+    overflow: hidden;
+}
+
+body[dir="rtl"] .contact-widget .address .info h5 {
+    text-align: right;
+}
+
+body[dir="rtl"] .contact-widget .address .info span {
+    text-align: right;
+}

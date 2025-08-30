@@ -1,0 +1,15 @@
+/* UAE Flag */
+.flag.uae {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAzMiAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjI0IiBmaWxsPSIjRkYwMDAwIi8+CjxyZWN0IHg9IjgiIHdpZHRoPSIyNCIgaGVpZ2h0PSI4IiBmaWxsPSIjRkZGRkZGIi8+CjxyZWN0IHg9IjgiIHk9IjgiIHdpZHRoPSIyNCIgaGVpZ2h0PSI4IiBmaWxsPSIjMDAwMDAwIi8+CjxyZWN0IHg9IjgiIHk9IjE2IiB3aWR0aD0iMjQiIGhlaWdodD0iOCIgZmlsbD0iIzAwQTY1MCIvPgo8L3N2Zz4K');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* UK Flag */
+.flag.uk {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAzMiAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjI0IiBmaWxsPSIjMDEyMTY5Ii8+CjxwYXRoIGQ9Ik0wIDBMMzIgMjRNMzIgMEwwIDI0IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMi42NyIvPgo8cGF0aCBkPSJNMCAwTDMyIDI0TTMyIDBMMCAyNCIgc3Ryb2tlPSIjQ0UxMTI0IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8cGF0aCBkPSJNMTMuMzMgMEgxOC42N1YyNEgxMy4zM1YwWk0wIDkuNkgzMlYxNC40SDBWOS42WiIgZmlsbD0iI0ZGRkZGRiIvPgo8cGF0aCBkPSJNMTQuNjcgMEgxNy4zM1YyNEgxNC42N1YwWk0wIDEwLjY3SDMyVjEzLjMzSDBWMTAuNjdaIiBmaWxsPSIjQ0UxMTI0Ii8+Cjwvc3ZnPgo=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
